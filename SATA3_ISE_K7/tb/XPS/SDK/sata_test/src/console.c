@@ -85,7 +85,6 @@ void RunConsole(void)
 
 /****************************************************************************
      Function: DoConsoleCommand
-     Engineer: Vitezslav Hola
         Input: const char *pszCommandLine : input string with command
                TyCmdFiles *ptyCmdFiles    : pointer to structure with command files
                unsigned char *pbFinish    : pointer to finish variable
@@ -93,8 +92,6 @@ void RunConsole(void)
   Description: get command line, parse it and call particular function
                for special commands (quit and cfile), fill passed structure and variable
                to signal request for reading file or to exit
-Date           Initials    Description
-18-Jan-2007    VH          Initial
 ****************************************************************************/
 void DoConsoleCommand(const char *pszCommandLine)
 {
